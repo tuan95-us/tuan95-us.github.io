@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vẽ hình chữ nhật</title>
+</head>
+<body>
+    <canvas id = "canvas"></canvas>
+    <script>
+         var canvas = document.getElementById('canvas')
+        console.log(canvas)
+
+        canvas.width = 1000
+        canvas.height = 700
+        canvas.style.border = '1px solid blue'
+
+
+        console.log(canvas)
+
+
+        var ctx = canvas.getContext('2d')
+
+        class Rect {
+            constructor(dx, dy, width, height, clor) {
+                this.dx = dx
+                this.dy = dy
+                this.width = width
+                this.height = height
+                this.clor = clor
+            }
+
+            draw() {
+                ctx.beginPath()
+                ctx.fillStyle= this.clor
+                ctx.rect(this.dx, this.dy, this.width, this.height)
+                ctx.fill()
+            }
+        }
+        var rect = new Rect(0,0,200,100,'red')
+        rect.draw()
+
+        var rect = new Rect(800,0,200,150,'yellow')
+        rect.draw()
+
+        var rect = new Rect(0,600,300,100,'green')
+        rect.draw()
+
+        var rect = new Rect(800,500,200,200,'blue')
+        rect.draw()
+
+        var rect = new Rect(200,200,600,300,'#fff')
+        rect.draw()
+        ctx.stroke()
+
+        var rect = new Rect(200,200,600,50,'red')
+        rect.draw()
+
+        var rect = new Rect(200,300,600,100,'blue')
+        rect.draw()
+
+        var rect = new Rect(200,450,600,50,'red')
+        rect.draw()
+    </script>
+</body>
+</html>
