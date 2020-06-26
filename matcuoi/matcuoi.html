@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mặt Cười</title>
+</head>
+<body>
+    <Canvas id = "canvas"></Canvas>
+    <script>
+         var canvas = document.getElementById('canvas')
+        console.log(canvas)
+
+        canvas.width = 1000
+        canvas.height = 700
+        canvas.style.border = '1px solid blue'
+
+
+        console.log(canvas)
+
+
+        var ctx = canvas.getContext('2d')
+
+    class Circle {
+        constructor(dx,dy,dr,color) {
+        this.dx=dx
+        this.dy=dy
+        this.dr=dr
+        this.color=color
+    }
+    draw() {
+        ctx.beginPath()
+        ctx.fillStyle = this.color
+        ctx.arc(this.dx,this.dy,this.dr,0,2*Math.PI,false)
+        ctx.fill()
+        ctx.stroke()
+    }
+}
+    var circle = new Circle (500,350,300,'#fff')
+    circle.draw()
+    
+    var circle = new Circle (400,250,20,'#fff')
+    circle.draw()
+    
+    var circle = new Circle (600,250,20,'#fff')
+    circle.draw()
+
+    ctx.beginPath()
+        ctx.fillStyle = '#fff'
+        ctx.strokeStyle = 'red'
+        ctx.arc(500,350,150,0, Math.PI,false)
+        ctx.fill()
+        ctx.stroke() 
+        ctx.closePath()
+
+    
+    </script>
+</body>
+</html>
