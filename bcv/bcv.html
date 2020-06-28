@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bàn Cờ Vua</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script>
+        var canvas = document.getElementById('canvas')
+        canvas.width = 1200
+        canvas.height = 1200
+        var ctx = canvas.getContext('2d')
+        class Rect {
+            constructor(dx,dy,width,height,color){
+                this.dx = dx
+                this.dy = dy
+                this.width = width
+                this.height = height
+                this.color = color
+            }
+            draw () {   
+                ctx.beginPath()
+                ctx.fillStyle = this.color
+                ctx.strokeStule = this.color
+                ctx.rect(this.dx,this.dy,this.width,this.height)
+                ctx.fill()
+                ctx.stroke()
+            }
+        }
+        var parent_rect = new Rect(200,200,800,800,'#DEB887')
+        parent_rect.draw()
+        var point
+        for(var i = 200;i <= 900; i++){ 
+            for (var j = 200; j <= 900; j++){
+                if( (i % 200 == 100) && (j % 200 == 0)){
+                    point = new Rect(i,j,100,100,'white')
+                    point.draw()
+                }
+                if((i % 200 == 0)&&(j % 200 == 100)){
+                    point = new Rect(i,j,100,100,'white')
+                    point.draw()
+                }
+            }
+        }
+
+        
+                        
+
+    </script>
+</body>
+</html>
