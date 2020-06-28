@@ -52,12 +52,12 @@ h2 {
 
 .box, .box1, .box3 {
     float: left;
-    width: 33%;
+    width: 33.3333%;
     text-align: center;
 }
 .box4 {
     
-    width: 33%;
+    width: 33.333%;
     text-align: center;
 }
 
