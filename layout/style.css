@@ -6,16 +6,13 @@
 h1{
     color: red;
 }
-body{
-    background-color: rgb(159, 248, 217);
-}
+
+
 
 .wrap {
     background-color: rgb(236, 245, 242);
     margin: auto;
     padding: 0;
-    max-width: 1000px;
-    height: 2000px;
 }
 
 
@@ -90,11 +87,11 @@ p {
 
 
 .border1 {
-    border-right: 15px solid #fff;
+    border-right: 7.5px solid #fff;
 }
 
 .border2 {
-    border-left: 15px solid #fff;
+    border-left: 7.5px solid #fff;
 }
 
 
@@ -123,7 +120,7 @@ p {
 }
 
 .border3 {
-    border-right: 15px solid white;
+    border-right: 7.5px solid white;
 }
 
 .border4 {
@@ -132,7 +129,7 @@ p {
 }
 
 .border5 {
-    border-left: 15px solid white;
+    border-left: 7.5px solid white;
 }
 
 
