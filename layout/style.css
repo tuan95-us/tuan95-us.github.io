@@ -65,12 +65,11 @@ body{
 
 
 p {
+    margin: auto;
+    padding-top: 190px;
     color: #fff;
     text-align: center;
     font-size: 20px;
-    margin: auto;
-    padding-top: 190px;
-
 }
 
 .figure2-1>p {
