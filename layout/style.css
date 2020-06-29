@@ -74,19 +74,19 @@ p {
 }
 
 .figure2-1>p {
-    color: #fff;
-    text-align: center;a
-    font-size: 20px;
     margin: auto;
     padding-top: 90px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
 }
 
 .figure2-2>p {
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
     margin: auto;
     padding-top: 90px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;   
 }
 
 
