@@ -13,7 +13,6 @@ body {
 }
 
 .wrap {
-    
     max-width: 1000px;
     margin: auto;
     background-color: rgb(10, 247, 227);
@@ -63,8 +62,8 @@ h2 {
 
 
 .banner {
-    max-width: 1000px;
-    height: 300px;
+    width: 1000px;
+  
 }
 
 img {

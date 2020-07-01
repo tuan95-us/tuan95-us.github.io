@@ -1,0 +1,53 @@
+
+
+.menu {
+
+    max-width: 20%;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 50%;
+}
+
+.menu:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+
+ul {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+    padding: 0;
+    width: 100%;
+}
+
+ul, li {
+    width: 100%;
+    list-style: none;
+    padding: 10px 5px;
+    border: solid rgb(190, 231, 255);
+}
+
+
+.padding{
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+  
+}
+
+a:hover {
+    color: rgb(201, 230, 42);
+}
+
+img:hover{
+    color: yellow;
+}
+* {
+    box-sizing: border-box;
+}
