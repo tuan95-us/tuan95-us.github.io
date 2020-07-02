@@ -7,6 +7,7 @@
     position: absolute;
     top: 0;
     bottom: 50%;
+    background-color: rgb(11, 245, 11);
 }
 
 
@@ -14,28 +15,17 @@
 ul {
     text-transform: uppercase;
     text-decoration: none;
-    background-color: blue;
     padding: 0;
     width: 100%;
 }
 
 ul, li {
-    width: 100%;
+    max-width: 150px;
     list-style: none;
     padding: 10px 5px;
-    border: solid rgb(190, 231, 255);
+    height: 100%;
 }
 
-
-.padding{
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-  
-}
 
 a:hover {
     color: rgb(201, 230, 42);
