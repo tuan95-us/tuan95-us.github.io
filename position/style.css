@@ -20,12 +20,15 @@ body {
 }
 
 
+
+
 blockquote {
    
     margin: 50px 0px 30px 50px;
     padding-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    color: #2f3640;
+    text-align: center;
     
 }
 
@@ -33,12 +36,12 @@ h1 {
     margin: 20px;
     text-align: center;
     font-size: 40px;
-    color: red;
+    color: #2f3640;
 }
 
 h2 {
     text-align: center;
-    color:red;
+    color:#2f3640;
 }
 
 .boxtong {
@@ -59,14 +62,9 @@ h2 {
 }
 
 
-.box4 {
-    
-    width: 33.333%;
-    text-align: center;
-    -moz-box-shadow: -1px -1px 5px 0px rgb(8, 8, 8);
-    -webkit-box-shadow: -1px -1px 5px 0px rgb(15, 15, 15);
+.item{
+    text-decoration: none;
 }
-
 
 
 img {
@@ -78,6 +76,7 @@ img {
 
 .top {
     position: fixed;
-    right: 50px;
-    bottom: 50px;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
 }

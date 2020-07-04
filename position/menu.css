@@ -2,24 +2,28 @@
 
 .menu {
     width: 150px;
-    max-width: 20%;
     padding: 5px;
     position: absolute;
     top: 0;
-    bottom: 50%;
-    background-color: rgb(11, 245, 11);
+    background-color: #25CCF7;
+    text-decoration: none;    
 }
 
-
+.menu-item{
+    text-decoration: none;
+    color: #fff;
+}
 
 ul {
     text-transform: uppercase;
     text-decoration: none;
     padding: 0;
     width: 100%;
+    padding: 10px 5px;
+
 }
 
-ul, li {
+li {
     max-width: 150px;
     list-style: none;
     padding: 10px 5px;
@@ -27,12 +31,13 @@ ul, li {
 }
 
 
+
 a:hover {
     color: rgb(201, 230, 42);
 }
 
 img:hover{
-    color: yellow;
+    color: #4cd137;
 }
 * {
     box-sizing: border-box;
