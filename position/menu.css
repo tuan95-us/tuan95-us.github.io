@@ -5,8 +5,8 @@
     padding: 5px;
     position: absolute;
     top: 0;
-    background-color: #25CCF7;
-    text-decoration: none;    
+    background-color: #25CCF7;  
+    height: 1590px;  
 }
 
 .menu-item{
@@ -16,7 +16,6 @@
 
 ul {
     text-transform: uppercase;
-    text-decoration: none;
     padding: 0;
     width: 100%;
     padding: 10px 5px;
