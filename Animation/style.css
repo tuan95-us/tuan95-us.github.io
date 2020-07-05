@@ -11,8 +11,6 @@ header{
     margin: auto;
     padding: 0;
     max-width: 60%;
-    height: auto;
-    background-color: rgb(7, 5, 2);
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +29,7 @@ div.anh {
 
 .anh:hover {
     transform: scale(1.5);
-    z-index: 1;
+        
 }
 
 .heart {
