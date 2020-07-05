@@ -41,7 +41,7 @@ div.anh {
     padding: 0;
     display: flex;
     justify-content: center;
-    animation: heart 0.5s ease infinite;
+    animation: heart 2s ease infinite;
 }
 
 @keyframes heart {
