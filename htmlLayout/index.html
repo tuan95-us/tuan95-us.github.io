@@ -1,18 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html5Layout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="page">
-        <div id="header">
-            
+
+    <header id="header">
+        <div class="nav-bar">
+            <nav>
+
+                <div class="logotech">
+                    <a href="/">
+                        <img src="https://techmaster.vn/resources/image/new_logo.png" alt="logo">
+                    </a>
+                </div>
+
+
+
+                <div class="parent-menu">
+                    <ul class="ul-menu">
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/khoa-hoc/truc-tuyen">
+                            <a href="/khoa-hoc/truc-tuyen" class="nav-padding">
+                                <span>Trực tuyến</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/khoa-hoc/phong-lab">
+                            <a href="/khoa-hoc/phong-lab" class="nav-padding">
+                                <span>Phòng lab</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/san-pham-hoc-vien">
+                            <a href="/san-pham-hoc-vien" class="nav-padding">
+                                <span>Sản phẩm học viên</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/trungtam/lich-khai-giang">
+                            <a href="/trungtam/lich-khai-giang" class="nav-padding">
+                                <span>Khai giảng</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/posts">
+                            <a href="/posts" class="nav-padding">
+                                <span>Blog</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/trai-nghiem">
+                            <a href="/trai-nghiem" class="nav-padding">
+                                <span>Trải nghiệm</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <li class="parent-menu-item" onclick="GoToSite(this)" data-href="/viec-lam">
+                            <a href="/viec-lam" class="nav-padding">
+                                <span>Việc làm</span>
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+
 
         </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div id="boxcontent">
+            <div id= "title">
+                <h1>[Hà Nội] Nên học ReactJS ở đâu? </h1>
+
+                <p>13 tháng 06, 2020</p>
+            </div>
+
+            <section class="main-content">
+                <article>
+                    <p><a
+                            href="https://techmaster.vn/khoa-hoc/25518/web-frontend-nang-cao-voi-react"><strong>React</strong></a>
+                        là
+                        một thư viện Javascript được phát triển bởi Facebook,&nbsp;dùng để xây dựng giao diện người
+                        dùng. Nó
+                        giúp xây dựng các ứng dụng lớn, có nhiều thao tác phức tạp từ người dùng. Rất nhiều trang web
+                        lớn đã
+                        áp
+                        dụng React vào việc xây dựng UI như: <a href="http://facebook.com/">facebook.com</a>, <a
+                            href="http://facebook.com/">wordpress.com</a>, <a
+                            href="http://facebook.com/">airbnb.com</a>, <a href="http://facebook.com/">dropbox.com</a>,
+                        ...</p>
+
+                    <div class="key">
+                        <figure class="image" style="display:inline-block"><img alt="" height="404" src="img/anh.jpg"
+                                width="800" style="margin: auto;">
+                            <p>Slide bài giảng ReactJS tại Techmaster</p>
+                        </figure>
+                    </div>
+
+                    <p>Năm 2019 là năm mà ReactJS giữ vị trí quán quân các web framework được yêu thích trên
+                        Stackoverflow. Một
+                        số
+                        website nổi tiếng hiện nay đang sử dụng ReactJS có thể kể đến: Facebook, Instagram, Netflix,
+                        Airbnb,
+                        Dropbox,...</p>
+
+                    <p class="key"><img alt="" height="449" src="img/anh1.jpg" width="800" style="margin: auto;">
+                    </p>
+
+                    <p>Nếu bạn ở Hà Nội và đang tìm khóa học về <a
+                            href="https://techmaster.vn/khoa-hoc/25518/web-frontend-nang-cao-voi-react">ReactJS</a>, hãy
+                        đến
+                        Techmaster Vietnam. Tại đây, hệ thống phòng học hiện đại, không gian tràn ngập cây xanh, đội ngũ
+                        giảng
+                        viên
+                        chuyên nghiệp và nhiệt tình sẽ đồng hành cùng bạn trên con đường chinh phục framework này. Nội
+                        dung khóa
+                        học
+                        bao gồm:</p>
+
+                    <p>- Cung cấp các kiến thức cơ bản về React qua ví dụ cụ thể (version 16.x, React Hooks + Function
+                        Component).
+                    </p>
+
+                    <p>- Nắm được các bước xây dựng nên các thành phần của ứng dụng bằng React và lối tư duy theo phong
+                        cách
+                        React
+                        (áp dụng khi học các framework tương tự như VueJS và AngularJS).</p>
+
+                    <p>- Giới thiệu SPA và SSR, hướng dẫn sử dụng Next.js cho các website cần SEO tốt.</p>
+
+                    <p><strong>Lưu ý:</strong></p>
+
+                    <ul>
+                        <li>Học viên đã có kiến thức cơ bản về<a
+                                href="https://techmaster.vn/khoa-hoc/25487/web-co-ban-html5-css3-va-javascript"
+                                target="_blank">
+                                HTML, CSS, Javascript</a></li>
+                        <li>Đã từng lập trình web Frontend, biết sử dụng các thư viện như jQuery,Bootstrap.</li>
+                    </ul>
+                </article>
+
+
+            </section>
+        </div>
+        <aside class="related">
+            <h4>
+                Bài viết liên quan
+            </h4>
+
+            <div class="related-item">
+                <a href="/posts/35887/cau-hinh-debezium-ket-noi-voi-sql-server-bang-docker" class="blank">
+                    <span>Cấu hình Debezium kết nối với SQL Server bằng Docker</span>
+                </a>
+            </div>
+
+            <div class="related-item">
+                <a href="/posts/35808/today-i-learned-postgres-luu-du-lieu-nhu-the-nao" class="blank">
+                    <span> I learned: Postgres lưu dữ liệu như thế nào ?</span>
+                </a>
+            </div>
+
+            <div class="related-item">
+                <a href="/posts/35790/hoc-gi-trong-mua-covid" class="blank">
+                    <span> Ở nhà tránh dịch COVID thì làm gì ?</span>
+                </a>
+            </div>
+
+            <div class="related-item">
+                <a href="/posts/35777/luu-y-khi-upload-anh-thumbnail" class="blank">
+                    <span> Lưu ý khi upload ảnh thumbnail</span>
+                </a>
+            </div>
+
+            <div class="related-item">
+                <a href="/posts/35622/techmaster-khai-giang-khoa-hoc-sql-2019" class="blank">
+                    <span> Techmaster khai giảng khoá học SQL 2019</span>
+                </a>
+            </div>
+
+        </aside>
 
     </div>
-    
+
+
+    <footer>
+        <p><strong>Thông tin chi tiết:</strong></p>
+
+        <p>Thời gian: 18:30 - 21:30 PM | một tuần 3 buổi - lớp bắt đầu vào đầu tháng 7/2020</p>
+
+        <p>Địa điểm: tầng 12A, tòa nhà Viwaseen, số 48 Tố Hữu, Trung Văn, Nam Từ Liêm, Hà Nội.</p>
+
+        <p>Link khóa học:&nbsp;<a href="https://techmaster.vn/khoa-hoc/25518/web-frontend-nang-cao-voi-react"
+                class="blank">https://techmaster.vn/khoa-hoc/25518/web-frontend-nang-cao-voi-react</a></p>
+
+        <p>Chi tiết liên hệ: 0967983563 (Ms. Thúy)</p>
+
+        <p>Email: support@techmaster.vn</p>
+    </footer>
+
 </body>
+
 </html>
