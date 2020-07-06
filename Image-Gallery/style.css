@@ -24,23 +24,21 @@ body {
 
 
 blockquote {
-   
     margin: 50px 0px 30px 50px;
     padding-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(185, 104, 38);
+    font-family: Arial, Helvetica, sans-serif
     
 }
 
 h1 {
     font-family: Roboto, sans-serif !important;
     text-align: center;
-    color:red;
+
 }
 
 h2 {
     text-align: center;
-    color:red;
+    
 }
 
 .boxtong {
@@ -70,6 +68,7 @@ h2 {
 
 .banner {
     width: 1000px;
+
   
 }
 
