@@ -1,4 +1,4 @@
-body {
+*{
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ img {
     width: 100%;
 }
 
-div.anh {
+.anh {
     width: 33.333%;
     transition: all ease-in-out 0.5s;
 }
@@ -37,17 +37,22 @@ div.anh {
     padding: 0;
     display: flex;
     justify-content: center;
-    animation: heart 2s ease infinite;
+    animation: heart 1s ease infinite;
 }
 
 
 
 @keyframes heart {
+    
+    0% {
+        transform: scale(1);
+    }
+
     50% {
-        transform: scale(.8, .8)
+        transform: scale(0.5)
     }
     100% {
-        transform: scale(1, 1)
+        transform: scale(0.5, 0.5)
     }
 }
 

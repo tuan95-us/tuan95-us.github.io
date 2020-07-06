@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(253, 234, 220);
+}
+
+h1{
+    text-align: center;
+    color: #0984e3;
+}
+
+p{
+    text-align: center;
+}
+
+.box1  {
+    border: 1px solid blue;
+    cursor: pointer;
+    background-color: rgb(253, 234, 220);
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    border: 2px solid #FFF;
+    width: 100%;
+    transition: all ease-in-out 0.5s;
+
+}
+
+.dl{
+    text-decoration: none;
+}
+
+.anh{
+    text-align: center;
+    max-width: 33.33%;
+}
+
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+.dl:hover{
+    color: #f1c40f;
+}

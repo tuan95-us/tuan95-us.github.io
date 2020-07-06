@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+}
+
+
+.img{
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+    border: 2px solid #FFF;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.a {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+.a:hover{
+    color: #f1c40f;
+}
