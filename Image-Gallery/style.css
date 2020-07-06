@@ -33,6 +33,7 @@ blockquote {
 h1 {
     font-family: Roboto, sans-serif !important;
     text-align: center;
+    color: ;
 
 }
 
@@ -67,16 +68,18 @@ h2 {
 }
 
 .banner {
-    width: 1000px;
-
-  
+    width: 1000px !important;
 }
 
 img {
     width: 100%;
+    transition: all ease-in-out 0.5s;
+
 }
 
 
-
+img:hover{
+    transform: scale(1.5);
+}
 
 
