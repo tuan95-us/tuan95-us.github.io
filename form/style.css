@@ -1,0 +1,33 @@
+.login {
+    background-color: #3498db;
+    border: 1px solid #757575;
+    color: #fff;
+}
+.login:hover {
+    background-color: #365889;
+}
+
+.form{
+    max-width: 300px;
+    margin: auto;
+    position: absolute;
+    
+    padding-left: 40%;
+    padding-top: 15%;
+}
+
+
+
+.text {
+    color: #fff;
+}
+
+.img{
+    max-width: 100%;
+    padding-left: 25%;
+}
+
+.ti{
+    padding: 15px;
+    width: 300px;
+}
