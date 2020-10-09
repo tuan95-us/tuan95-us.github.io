@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1024px;
+    height: 1500px;
+    margin: auto;
+}
+
+.bander >img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.menu > a img{
+    border-radius: 50%;
+    background-color: #FFF;
+    max-width: 250px;
+    position: absolute;
+    top: 180px;
+    right: 980px;  
+}
+
+
+h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #ff7979;
+}
+
+blockquote{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+h2{
+    text-align: center;
+    color: #ff7979;
+    padding-top: 50px;
+}
+
+.menu > ul > li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.a1>img{
+    max-width: 33%;
+    
+}

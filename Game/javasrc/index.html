@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Javascript</title>
+</head>
+
+<body>
+
+    <script>
+        // Bài 1. Viết 1 function kiểm tra 1 chuỗi có nằm trong chuỗi còn lại hay không. Nếu có trả về true, nếu không trả về false
+        // - Đầu vào có 2 tham số : Tham số 1 là chuỗi ban đầu, tham số 2 là chuỗi cần kiểm tra
+
+        // Ví dụ: checkStringExist("i love you", "you") => true
+
+        // checkStringExist("i love you", "hate") => false
+
+
+        function run(a,b) {
+
+         var c = a.indexOf(b);
+            if (c==-1) {
+                return false
+            }
+            return true
+
+        }
+
+        console.log(run("tuan","t"))
+
+
+        // Bài 2. Viết hàm rút ngắn chuỗi bằng cách cắt ra 8 ký tự đầu của 1 chuỗi và thêm dấu ba chấm ở cuối chuỗi. 
+        // Ví dụ: shortenString('Xin chào các bạn') => Kết quả trả về là 'Xin chào
+
+
+        // function run(a){
+        //   var b =  a.slice(0,9)
+        //     return b
+
+        // }
+        // console.log(run("Xin chào các bạn")+ "...")
+
+
+
+        // Bài 3 Viết hàm có tác dụng biến 1 chuỗi thành chỉ viết hoa từ đầu tiên. 
+        // Ví dụ: capitalizeString('chÀo MừnG đẾn với techMaster') => Kết quả trả về là 'Chào Mừng Đến Với Techmaster'
+
+
+        function run(b){
+            var a = b.toLocaleLowerCase()
+            return a
+        }
+
+        console.log(run("chÀo MừnG đẾn với techMaster"))
+
+
+
+        // Bài 4. Cho 1 chuỗi, hãy viết hàm có tác dụng sao chép đó chuỗi lên 10 lần.
+
+
+        function run(a) {
+            var b = ""
+            for (let i = 0; i < 9; i++) {
+                b += a
+            }
+            return b
+        }
+        console.log(run("ha"))
+
+
+
+
+
+        // Bài 5. Cho 1 chuỗi, hãy viết hàm có tác dụng sao chép đó chuỗi lên 10 lần, ngăn cách nhau bởi dấu gạch ngang. 
+        // Ví dụ: repeatString('a') => Kết quả trả về là 'a-a-a-a-a-a-a-a-a-a'
+
+
+
+        function run(a){
+            var b = a;
+            for(let i = 0; i < 9; i++){
+                b += '-'+a
+            }
+            return b 
+        }
+        console.log(run("ha"))
+
+
+
+
+        // Bài 6. Cho 1 chuỗi và 1 số nguyên n > 1, hãy viết hàm có tác dụng sao chép đó chuỗi lên n lần, ngăn cách nhau bởi dấu gạch ngang. 
+        // Ví dụ: repeatString('a', 5) => Kết quả trả về là 'a-a-a-a-a'
+
+        function run(a, n) {
+            var b = a;
+            for (let i = 0; i < n; i++) {
+                b += '-' + a
+            }
+            return b
+        }
+        console.log(run("ha", 4))
+
+
+
+        // Bài 7. Viết hàm đảo ngược chuỗi. Viết dunction với đầu vào là 1 chuỗi string. Trả về chuỗi đảo ngược của chuỗi đó
+        // Ví dụ: reverseString('Hello') => Kết quả trả về là 'olleH'
+
+
+
+        function reverseString(str) {    
+            var newString = "";
+            for (var i = str.length - 1; i >= 0; i--) {
+                newString += str[i];
+            }
+            return newString
+
+        }
+        console.log(reverseString('Hello'))
+
+
+        Bài 14
+
+      
+
+
+    </script>
+
+
+
+</body>
+
+</html>
